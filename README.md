@@ -9,11 +9,11 @@
 ------------------
 
 # Other Available Languages:
-1. [Arabic Git Cheat Sheet](https://github.com/arslanbilal/git-cheat-sheet/blob/master/other-sheets/git-cheat-sheet-ar.md)
-2. [Chinese Git Cheat Sheet](https://github.com/arslanbilal/git-cheat-sheet/blob/master/other-sheets/git-cheat-sheet-zh.md)
-3. [Hindi Git Cheat Sheet](https://github.com/arslanbilal/git-cheat-sheet/blob/master/other-sheets/git-cheat-sheet-hi.md)
-4. [Turkish Git Cheat Sheet](https://github.com/arslanbilal/git-cheat-sheet/blob/master/other-sheets/git-cheat-sheet-tr.md)
-5. [Spanish Git Cheat Sheet](https://github.com/arslanbilal/git-cheat-sheet/blob/master/other-sheets/git-cheat-sheet-es.md)
+1. [Arabic Git Cheat Sheet](https://github.com/flyhigher139/git-cheat-sheet/blob/master/other-sheets/git-cheat-sheet-ar.md)
+2. [English Git Cheat Sheet](https://github.com/flyhigher139/Git-Cheat-Sheet/blob/master/other-sheets/git-cheat-sheet-en.md)
+3. [Hindi Git Cheat Sheet](https://github.com/flyhigher139/git-cheat-sheet/blob/master/other-sheets/git-cheat-sheet-hi.md)
+4. [Turkish Git Cheat Sheet](https://github.com/flyhigher139/git-cheat-sheet/blob/master/other-sheets/git-cheat-sheet-tr.md)
+5. [Spanish Git Cheat Sheet](https://github.com/flyhigher139/git-cheat-sheet/blob/master/other-sheets/git-cheat-sheet-es.md)
 
 Git cheat sheet 让你不用再去记所有的git命令。
 
