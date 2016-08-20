@@ -232,7 +232,7 @@ $ git log --author="username"
 $ git log -p <file>
 ```
 
-##### Display commits that are present only in remote/branch in right side：
+##### 仅显示远端<remote/master>分支与远端<origin/master>分支提交记录的差集：
 ```
 $ git log --oneline <origin/master>..<remote/master> --left-right
 ```
