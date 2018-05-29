@@ -14,6 +14,7 @@
 3. [Hindi Git Cheat Sheet](https://github.com/flyhigher139/git-cheat-sheet/blob/master/other-sheets/git-cheat-sheet-hi.md)
 4. [Turkish Git Cheat Sheet](https://github.com/flyhigher139/git-cheat-sheet/blob/master/other-sheets/git-cheat-sheet-tr.md)
 5. [Spanish Git Cheat Sheet](https://github.com/flyhigher139/git-cheat-sheet/blob/master/other-sheets/git-cheat-sheet-es.md)
+6. [Nepalese Git Cheat Sheet](https://github.com/Imsatis/Git-Cheat-Sheet/blob/master/other-sheets/git-cheat-sheet-np.md)
 
 Git cheat sheet 让你不用再去记所有的git命令。
 
