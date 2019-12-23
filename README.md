@@ -41,6 +41,9 @@ Git Cheat Sheet 中文版
 ---
 
 ### 配置
+```
+$git config --[system|global|local] 
+```
 
 ##### 列出当前配置：
 ```
@@ -96,7 +99,7 @@ $ git config --global core.editor vi
 ~/.gitconfig
 ```
 
-##### 系统配置对应的配置文件路径[--local]：
+##### 系统配置对应的配置文件路径[--system]：
 ```
 /etc/gitconfig
 ```
@@ -131,20 +134,24 @@ $ git status
 
 ##### 显示与上次提交版本文件的不同：
 ```
-$ git diff
+$ git diff 工作区文件与提交版文件（版本库）中的差别
+$ git diff --cached 缓存区文件与提交版本文件的差别
 ```
 
-##### 把当前所有修改添加到下次提交中：
+##### 把当前修改添加到下次提交中：
 ```
+$ git add <file>
 $ git add .
+$ git add ven/*
+$ git add ven?
 ```
 
 ##### 把对某个文件的修改添加到下次提交中：
 ```
-$ git add -p <file>
+$ git add -p <file> 
 ```
 
-##### 提交本地的所有修改：
+##### 提交本地的所有修改(暂存区内的文件)：
 ```
 $ git commit -a
 ```
@@ -165,7 +172,7 @@ git commit --date="`date --date='n day ago'`" -am "Commit Message"
 ```
 
 ##### 修改上次提交
-<em><sub>请勿修改已发布的提交记录!</sub></em>
+<em><sub>请勿修改已发布（push）的提交记录!</sub></em>
 ```
 $ git commit --amend
 ```
@@ -181,8 +188,9 @@ git commit --amend --date="date"
 ```
 
 ##### 把当前分支中未提交的修改移动到其他分支：
+##### checkout切换分支时，不会保存工作区的文件修改，只会保存暂存区文件，所以git checkout <file>会使用版本库文件撤销工作区文件的修改，但是对暂存区文件无影响
 ```
-git stash
+git stash #
 git checkout branch2
 git stash pop
 ```
@@ -304,7 +312,7 @@ $ git branch -D <branch>
 $ git tag <tag-name>
 ```
 
-##### 给当前版本打标签并附加消息：
+##### 给当前版本打标签并附加消息a annotion：
 ```
 $ git tag -a <tag-name>
 ```
